@@ -1,0 +1,38 @@
+{
+  "name": "react-vite-tailwind-boilerplate",
+  "version": "1.0.0",
+  "author": "xNoJustice",
+  "description": "CRA Vite Template for tailwind, prettier and autopublish on GH pages",
+  "repository": "https://github.com/xNoJustice/react-vite-tailwind-boilerplate",
+  "homepage": "https://xnojustice.github.io/react-vite-tailwind-boilerplate",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-boilerplate",
+    "vite",
+    "tailwindcss",
+    "tailwind",
+    "tailwind-css",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettify": "yarn prettier \"**/*.*(js|jsx)\" --ignore-path=.prettierignore --write"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
