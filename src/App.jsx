@@ -9,6 +9,8 @@ import GhostLoader from './pages/GhostLoader'
 import SpinnerLoader from './pages/SpinnerLoader'
 import BouncingLoader from './pages/BouncingLoader'
 import SearchBar from './pages/SearchBar'
+import MultiStepForm2 from './pages/MultiStepForm2'
+import RocketLoader from './pages/MultiStepForm2'
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Route path="/spinner-loader" element={<SpinnerLoader />} />
       <Route path="/bouncing-loader" element={<BouncingLoader />} />
       <Route path="/search-bar" element={<SearchBar />} />
+      <Route path="/multi-step-form2" element={<MultiStepForm2 />} />
+      <Route path="/rocket-loader" element={<RocketLoader />} />
     </Routes>
   )
 }

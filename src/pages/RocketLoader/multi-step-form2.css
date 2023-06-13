@@ -1,0 +1,151 @@
+#multi-step-form2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#multi-step-form2 .stepper {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+}
+
+#multi-step-form2 .stepper div {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #201f15;
+  margin: auto;
+}
+
+#multi-step-form2 .step--1,
+#multi-step-form2 .step--2,
+#multi-step-form2 .step--3,
+#multi-step-form2 .step--4 {
+  width: 5rem;
+  padding: 0.5rem 0;
+  background: #201f15;
+  color: #666;
+  text-align: center;
+}
+
+#multi-step-form2 .form {
+  background: #201f15;
+  text-align: center;
+  position: absolute;
+  width: 25rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #b9a92c;
+  display: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#multi-step-form2 .form--header-container {
+  background: #b9a92c;
+  color: #fff;
+  height: 6rem;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+#multi-step-form2 .form--header-title {
+  font-size: 1.4rem;
+}
+
+#multi-step-form2 .form--header-text {
+  padding: 0.5rem 0;
+}
+
+#multi-step-form2 input {
+  padding: 0.8rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  width: 20rem;
+  display: block;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid #bdbdbb;
+}
+
+#multi-step-form2 .form__btn {
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  width: 7rem;
+  margin: 1rem 1rem;
+  border-radius: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#multi-step-form2 .form--message-text {
+  width: 25rem;
+  background: #201f15;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #b9a92c;
+  animation: fadeIn 0.8s;
+  border-radius: 1rem;
+}
+
+#multi-step-form2 .form-active {
+  z-index: 1000;
+  display: block;
+}
+
+#multi-step-form2 .form-active-animate {
+  animation: moveRight 1s;
+}
+
+#multi-step-form2 .form-inactive {
+  display: block;
+  animation: moveLeft 1s;
+}
+
+#multi-step-form2 .stepper .step-active {
+  background-color: #b9a92c;
+  color: #fff;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-27rem) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0rem) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0rem) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(27rem) scale(0.9);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

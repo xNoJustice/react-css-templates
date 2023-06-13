@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Rocket Loader', img: 'rocket-loader' },
+  { name: 'Multi Step Form 2', img: 'multi-step-form2' },
   { name: 'Search Bar', img: 'search-bar' },
   { name: 'Bouncing Loader', img: 'bouncing-loader' },
   { name: 'Spinner Loader', img: 'spinner-loader' },
