@@ -1,0 +1,34 @@
+#animated-background {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+}
+
+#animated-background span {
+  position: absolute;
+  background-color: white;
+  animation: animation 5s linear infinite;
+}
+
+#animated-background svg {
+  position: absolute;
+  color: white;
+  animation: animation 5s linear infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(-500%) rotate(360deg);
+    opacity: 0;
+  }
+}

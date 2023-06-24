@@ -11,6 +11,8 @@ import BouncingLoader from './pages/BouncingLoader'
 import SearchBar from './pages/SearchBar'
 import MultiStepForm2 from './pages/MultiStepForm2'
 import RocketLoader from './pages/MultiStepForm2'
+import Unsubscribe from './pages/Unsubscribe'
+import AnimatedBackground from './pages/AnimatedBackground/index'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Route path="/search-bar" element={<SearchBar />} />
       <Route path="/multi-step-form2" element={<MultiStepForm2 />} />
       <Route path="/rocket-loader" element={<RocketLoader />} />
+      <Route path="/unsubscribe" element={<Unsubscribe />} />
+      <Route path="/animated-background" element={<AnimatedBackground />} />
     </Routes>
   )
 }

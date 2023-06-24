@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Animated Background', img: 'animated-background' },
+  { name: 'Unsubscribe', img: 'unsubscribe' },
   { name: 'Rocket Loader', img: 'rocket-loader' },
   { name: 'Multi Step Form 2', img: 'multi-step-form2' },
   { name: 'Search Bar', img: 'search-bar' },
