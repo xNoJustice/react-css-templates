@@ -13,6 +13,8 @@ import MultiStepForm2 from './pages/MultiStepForm2'
 import RocketLoader from './pages/MultiStepForm2'
 import Unsubscribe from './pages/Unsubscribe'
 import AnimatedBackground from './pages/AnimatedBackground/index'
+import AnimatedCounter from './pages/AnimatedCounter'
+import BarcodeGenerator from './pages/BarcodeGenerator'
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <Route path="/rocket-loader" element={<RocketLoader />} />
       <Route path="/unsubscribe" element={<Unsubscribe />} />
       <Route path="/animated-background" element={<AnimatedBackground />} />
+      <Route path="/animated-counter" element={<AnimatedCounter />} />
+      <Route path="/barcode-generator" element={<BarcodeGenerator />} />
     </Routes>
   )
 }

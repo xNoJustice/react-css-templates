@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Barcode Generator', img: 'barcode-generator' },
+  { name: 'Animated Counter', img: 'animated-counter' },
   { name: 'Animated Background', img: 'animated-background' },
   { name: 'Unsubscribe', img: 'unsubscribe' },
   { name: 'Rocket Loader', img: 'rocket-loader' },

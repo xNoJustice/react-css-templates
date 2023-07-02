@@ -1,5 +1,9 @@
 # React CSS Templates
 
+## Barcode Generator
+
+## Animated Counter
+
 ## Animation Background
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/2ee1f09e-7bbd-41d3-bcea-d4230ef23f94
