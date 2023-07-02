@@ -2,7 +2,11 @@
 
 ## Barcode Generator
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/01abad24-bb7b-476a-b72b-55ce308518b1
+
 ## Animated Counter
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/d2de67fb-3ad1-496e-80d0-9cd667cddc3e
 
 ## Animation Background
 
