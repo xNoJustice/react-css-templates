@@ -2,7 +2,11 @@
 
 ## Rocket Loader 2
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/c03d7c5d-a950-456e-9040-a7c047704e28
+
 ## Hover Effects
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/bda767de-b7ff-447e-8e1d-bd39bbda84e7
 
 ## Barcode Generator
 
