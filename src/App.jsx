@@ -10,11 +10,13 @@ import SpinnerLoader from './pages/SpinnerLoader'
 import BouncingLoader from './pages/BouncingLoader'
 import SearchBar from './pages/SearchBar'
 import MultiStepForm2 from './pages/MultiStepForm2'
-import RocketLoader from './pages/MultiStepForm2'
+import RocketLoader from './pages/RocketLoader'
 import Unsubscribe from './pages/Unsubscribe'
 import AnimatedBackground from './pages/AnimatedBackground/index'
 import AnimatedCounter from './pages/AnimatedCounter'
 import BarcodeGenerator from './pages/BarcodeGenerator'
+import HoverEffects from './pages/HoverEffects'
+import RocketLoader2 from './pages/RocketLoader2'
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <Route path="/animated-background" element={<AnimatedBackground />} />
       <Route path="/animated-counter" element={<AnimatedCounter />} />
       <Route path="/barcode-generator" element={<BarcodeGenerator />} />
+      <Route path="/hover-effects" element={<HoverEffects />} />
+      <Route path="/rocket-loader2" element={<RocketLoader2 />} />
     </Routes>
   )
 }

@@ -1,0 +1,23 @@
+#rocket-loader2 {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rocket-loader2 .line-rocket1 {
+  animation: line-rocket1-flame 200ms infinite linear;
+  transform-origin: 34px 70px;
+}
+
+@keyframes line-rocket1-flame {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}

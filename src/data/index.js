@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Rocket Loader 2', img: 'rocket-loader2' },
+  { name: 'Hover Effects', img: 'hover-effects' },
   { name: 'Barcode Generator', img: 'barcode-generator' },
   { name: 'Animated Counter', img: 'animated-counter' },
   { name: 'Animated Background', img: 'animated-background' },

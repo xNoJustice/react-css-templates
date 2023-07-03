@@ -1,5 +1,9 @@
 # React CSS Templates
 
+## Rocket Loader 2
+
+## Hover Effects
+
 ## Barcode Generator
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/01abad24-bb7b-476a-b72b-55ce308518b1

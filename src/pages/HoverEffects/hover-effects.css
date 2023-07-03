@@ -1,0 +1,256 @@
+#hover-effects .heading {
+  font-size: 100px;
+  margin-top: 3rem;
+  line-height: 30px;
+  margin-bottom: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+#hover-effects li {
+  margin-top: 1rem;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: lighter;
+  font-size: 70px;
+  color: #fff;
+}
+
+#hover-effects img {
+  width: 450px;
+  height: 275px;
+}
+
+#hover-effects figure {
+  width: 450px;
+  height: 275px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#hover-effects #style_1 {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects #style_1 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#hover-effects #style_1 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#hover-effects #style_2 {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects #style_2 figure img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#hover-effects #style_2 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#hover-effects #style_3 {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects #style_3 figure img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#hover-effects #style_3 figure:hover img {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}
+
+#hover-effects #style_4 {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects #style_4 figure img {
+  margin-left: 40px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#hover-effects #style_4 figure:hover img {
+  margin-left: 0;
+}
+
+#hover-effects #style_5 {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects #style_5 figure {
+  background: #1abc9c;
+}
+
+#hover-effects #style_5 figure img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#hover-effects #style_5 figure:hover img {
+  opacity: 0.5;
+}
+
+#hover-effects .style_content {
+  display: flex;
+  gap: 20px;
+}
+
+#hover-effects .column#caption {
+  position: relative;
+}
+
+#hover-effects .column#caption .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+#hover-effects .column#caption .text h1 {
+  margin: 0;
+  color: white;
+}
+
+#hover-effects .column#caption:hover .text {
+  opacity: 1;
+}
+
+#hover-effects .column#caption:hover img {
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+}
+
+#hover-effects .title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#hover-effects .content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#hover-effects .content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+#hover-effects .content:hover .content-overlay {
+  opacity: 1;
+}
+
+#hover-effects .content-image {
+  width: 100%;
+}
+
+#hover-effects .content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#hover-effects .content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+#hover-effects .content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+#hover-effects .content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+#hover-effects .fadeIn-bottom {
+  top: 80%;
+}
+
+#hover-effects .fadeIn-top {
+  top: 20%;
+}
+
+#hover-effects .fadeIn-left {
+  left: 20%;
+}
+
+#hover-effects .fadeIn-right {
+  left: 80%;
+}
+
+@media all and (max-width: 632px) {
+  #hover-effects img {
+    width: 70vw;
+  }
+  #hover-effects figure {
+    width: 70vw;
+  }
+  #hover-effects .heading {
+    line-height: 1;
+    letter-spacing: 5px;
+  }
+}
