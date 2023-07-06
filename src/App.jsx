@@ -17,6 +17,8 @@ import AnimatedCounter from './pages/AnimatedCounter'
 import BarcodeGenerator from './pages/BarcodeGenerator'
 import HoverEffects from './pages/HoverEffects'
 import RocketLoader2 from './pages/RocketLoader2'
+import Snackbar from './pages/Snackbar'
+import FlashMessage from './pages/FlashMessage'
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
       <Route path="/barcode-generator" element={<BarcodeGenerator />} />
       <Route path="/hover-effects" element={<HoverEffects />} />
       <Route path="/rocket-loader2" element={<RocketLoader2 />} />
+      <Route path="/snackbar" element={<Snackbar />} />
+      <Route path="/flash-message" element={<FlashMessage />} />
     </Routes>
   )
 }

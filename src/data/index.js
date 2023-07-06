@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Flash Message', img: 'flash-message' },
+  { name: 'Snackbar', img: 'snackbar' },
   { name: 'Rocket Loader 2', img: 'rocket-loader2' },
   { name: 'Hover Effects', img: 'hover-effects' },
   { name: 'Barcode Generator', img: 'barcode-generator' },

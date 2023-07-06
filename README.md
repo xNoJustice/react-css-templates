@@ -1,5 +1,9 @@
 # React CSS Templates
 
+## Flash Message
+
+## Snackbar
+
 ## Rocket Loader 2
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/c03d7c5d-a950-456e-9040-a7c047704e28
