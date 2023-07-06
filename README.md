@@ -2,7 +2,11 @@
 
 ## Flash Message
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/684f7647-58dc-4680-8a2a-58e574626f73
+
 ## Snackbar
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/c467025a-68f6-41db-9f54-11b70f395697
 
 ## Rocket Loader 2
 
