@@ -1,4 +1,5 @@
 export const templates = [
+  { name: 'Vertical Animated Carousel', img: 'vertical-animated-carousel' },
   { name: 'Flash Message', img: 'flash-message' },
   { name: 'Snackbar', img: 'snackbar' },
   { name: 'Rocket Loader 2', img: 'rocket-loader2' },

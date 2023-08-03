@@ -19,6 +19,7 @@ import HoverEffects from './pages/HoverEffects'
 import RocketLoader2 from './pages/RocketLoader2'
 import Snackbar from './pages/Snackbar'
 import FlashMessage from './pages/FlashMessage'
+import VerticalAnimatedCarousel from './pages/VerticalAnimatedCarousel'
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
       <Route path="/rocket-loader2" element={<RocketLoader2 />} />
       <Route path="/snackbar" element={<Snackbar />} />
       <Route path="/flash-message" element={<FlashMessage />} />
+      <Route
+        path="/vertical-animated-carousel"
+        element={<VerticalAnimatedCarousel />}
+      />
     </Routes>
   )
 }

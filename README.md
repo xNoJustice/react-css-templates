@@ -1,5 +1,7 @@
 # React CSS Templates
 
+## Vertical Animated Carousel
+
 ## Flash Message
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/684f7647-58dc-4680-8a2a-58e574626f73
