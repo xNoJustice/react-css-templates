@@ -2,6 +2,8 @@
 
 ## Vertical Animated Carousel
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/94ff9ee6-77fc-4fe8-88fa-f9c946487dc6
+
 ## Flash Message
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/684f7647-58dc-4680-8a2a-58e574626f73
