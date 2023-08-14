@@ -1,5 +1,9 @@
 # React CSS Templates
 
+## Login Form
+
+## Named Loader
+
 ## Vertical Animated Carousel
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/94ff9ee6-77fc-4fe8-88fa-f9c946487dc6

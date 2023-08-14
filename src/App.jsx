@@ -20,6 +20,8 @@ import RocketLoader2 from './pages/RocketLoader2'
 import Snackbar from './pages/Snackbar'
 import FlashMessage from './pages/FlashMessage'
 import VerticalAnimatedCarousel from './pages/VerticalAnimatedCarousel'
+import NamedLoader from './pages/NamedLoader'
+import LoginForm from './pages/LoginForm'
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
         path="/vertical-animated-carousel"
         element={<VerticalAnimatedCarousel />}
       />
+      <Route path="/named-loader" element={<NamedLoader />} />
+      <Route path="/login-form" element={<LoginForm />} />
     </Routes>
   )
 }

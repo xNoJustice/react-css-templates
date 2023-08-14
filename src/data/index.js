@@ -1,4 +1,6 @@
 export const templates = [
+  { name: 'Login Form', img: 'login-form' },
+  { name: 'Named Loader', img: 'named-loader' },
   { name: 'Vertical Animated Carousel', img: 'vertical-animated-carousel' },
   { name: 'Flash Message', img: 'flash-message' },
   { name: 'Snackbar', img: 'snackbar' },
