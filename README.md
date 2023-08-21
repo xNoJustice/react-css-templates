@@ -2,7 +2,11 @@
 
 ## Login Form
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/11444acc-cd88-4987-8925-d095e31c0945
+
 ## Named Loader
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/ae8b241a-822a-4167-b333-4f0a513c9109
 
 ## Vertical Animated Carousel
 
