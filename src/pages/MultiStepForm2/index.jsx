@@ -74,21 +74,27 @@ export default function MultiStepForm2() {
         </div>
         <input
           type="text"
+          name="name"
           placeholder="Name"
           value={values.name}
           onChange={(e) => handleChange(e)}
+          required
         />
         <input
           type="email"
+          name="email"
           placeholder="Email"
           value={values.email}
           onChange={(e) => handleChange(e)}
+          required
         />
         <input
           type="password"
+          name="password"
           placeholder="Password"
           value={values.password}
           onChange={(e) => handleChange(e)}
+          required
         />
         <button
           type="button"
@@ -112,18 +118,21 @@ export default function MultiStepForm2() {
 
         <input
           type="text"
+          name="companyName"
           placeholder="Company Name"
           value={values.companyName}
           onChange={(e) => handleChange(e)}
         />
         <input
           type="text"
+          name="jobTitle"
           placeholder="Job title"
           value={values.jobTitle}
           onChange={(e) => handleChange(e)}
         />
         <input
           type="text"
+          name="location"
           placeholder="Location"
           value={values.location}
           onChange={(e) => handleChange(e)}
@@ -162,18 +171,21 @@ export default function MultiStepForm2() {
         </div>
         <input
           type="url"
+          name="linkedin"
           placeholder="Linkedin"
           value={values.linkedin}
           onChange={(e) => handleChange(e)}
         />
         <input
           type="url"
+          name="twitter"
           placeholder="Twitter"
           value={values.twitter}
           onChange={(e) => handleChange(e)}
         />
         <input
           type="url"
+          name="github"
           placeholder="Github"
           value={values.github}
           onChange={(e) => handleChange(e)}
@@ -202,7 +214,7 @@ export default function MultiStepForm2() {
         }}
       >
         <h1 className="form--message-text">
-          Your account is successfully created{' '}
+          Your account is successfully created {console.log(values)}
         </h1>
       </div>
     </main>

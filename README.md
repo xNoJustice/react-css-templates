@@ -1,5 +1,11 @@
 # React CSS Templates
 
+## Announcement Bar
+
+## Animated Tag Cloud
+
+## Flip Card Hover
+
 ## Login Form
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/11444acc-cd88-4987-8925-d095e31c0945

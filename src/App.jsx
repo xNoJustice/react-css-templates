@@ -22,6 +22,9 @@ import FlashMessage from './pages/FlashMessage'
 import VerticalAnimatedCarousel from './pages/VerticalAnimatedCarousel'
 import NamedLoader from './pages/NamedLoader'
 import LoginForm from './pages/LoginForm'
+import FlipCardHover from './pages/FlipCardHover'
+import AnimatedTagCloud from './pages/AnimatedTagCloud'
+import AnnouncementBar from './pages/AnnouncementBar'
 
 function App() {
   return (
@@ -52,6 +55,9 @@ function App() {
       />
       <Route path="/named-loader" element={<NamedLoader />} />
       <Route path="/login-form" element={<LoginForm />} />
+      <Route path="/flip-card-hover" element={<FlipCardHover />} />
+      <Route path="/animated-tag-cloud" element={<AnimatedTagCloud />} />
+      <Route path="/announcement-bar" element={<AnnouncementBar />} />
     </Routes>
   )
 }

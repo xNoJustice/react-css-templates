@@ -1,0 +1,88 @@
+#flip-card-hover {
+  height: 400px;
+  width: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+#flip-card-hover .card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+#flip-card-hover:hover > .front-face {
+  transform: rotateY(-180deg);
+}
+
+#flip-card-hover .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#flip-card-hover .back-face {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+
+#flip-card-hover:hover > .back-face {
+  transform: rotateY(0deg);
+}
+
+#flip-card-hover .back-face img {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+
+#flip-card-hover .back-face .info {
+  text-align: center;
+  color: #1cc7d0;
+}
+
+#flip-card-hover .back-face .info .title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#flip-card-hover .back-face ul {
+  display: flex;
+}
+
+#flip-card-hover .back-face ul a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 0 5px;
+  line-height: 38px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+
+#flip-card-hover .back-face ul a:hover {
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}

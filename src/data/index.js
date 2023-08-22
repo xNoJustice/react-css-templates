@@ -1,4 +1,7 @@
 export const templates = [
+  { name: 'Announcement Bar', img: 'announcement-bar' },
+  { name: 'Animated Tag Cloud', img: 'animated-tag-cloud' },
+  { name: 'Flip Card Hover', img: 'flip-card-hover' },
   { name: 'Login Form', img: 'login-form' },
   { name: 'Named Loader', img: 'named-loader' },
   { name: 'Vertical Animated Carousel', img: 'vertical-animated-carousel' },

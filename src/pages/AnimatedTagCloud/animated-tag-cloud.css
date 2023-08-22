@@ -1,0 +1,58 @@
+#animated-tag-cloud {
+  background: #1b263b;
+  color: #778da9;
+  cursor: none;
+}
+
+#animated-tag-cloud #cursor {
+  position: fixed;
+  top: -16px;
+  left: -16px;
+  z-index: 1;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #e0e1dd;
+  opacity: 0;
+}
+
+#animated-tag-cloud #cursor.-activated {
+  animation: fadeInTag 1s ease-out forwards;
+}
+
+#animated-tag-cloud .tags-cloud {
+  position: fixed;
+  top: calc(50% - 30vmin);
+  left: calc(50% - 30vmin);
+  height: 60vmin;
+  width: 60vmin;
+  list-style: none;
+  opacity: 0;
+}
+
+#animated-tag-cloud .tags-cloud.-loaded {
+  animation: fadeInTag 1s ease-out forwards;
+}
+
+#animated-tag-cloud .tags-cloud > .tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5vmin;
+  font-weight: bold;
+  transition: transform 0.5s linear, opacity 0.5s linear;
+}
+
+#animated-tag-cloud .tags-cloud > .tag > .wrap {
+  display: inline-block;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes fadeInTag {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

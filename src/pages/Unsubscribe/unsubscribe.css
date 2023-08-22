@@ -1,4 +1,4 @@
-#unsubscribe > .container {
+#unsubscribe .container {
   width: 600px;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -15,27 +15,25 @@
   border-radius: 5px;
 }
 
-#unsubscribe > .inner-container {
+#unsubscribe .inner-container {
   width: 100%;
 }
 
-#unsubscribe > svg {
+#unsubscribe svg {
   max-width: 90%;
   position: relative;
   left: 5%;
   margin: 0 auto;
 }
 
-#unsubscribe > .bottom {
+#unsubscribe .bottom {
   text-align: center;
-  margin-top: 0em;
   max-width: 70%;
   position: relative;
   margin: 0 auto;
 }
 
-#unsubscribe > .bottom h2 {
-  font-family: 'Rokkitt', sans-serif;
+#unsubscribe .bottom h2 {
   letter-spacing: 0.05em;
   font-size: 30px;
   line-height: 1.2;
@@ -43,7 +41,7 @@
   margin: 0 auto 0.25em;
 }
 
-#unsubscribe > .bottom p {
+#unsubscribe .bottom p {
   color: #777;
   letter-spacing: 0.1em;
   font-size: 16px;
@@ -51,15 +49,16 @@
   margin: 0 auto 2em;
 }
 
-#unsubscribe > .buttons {
+#unsubscribe .buttons {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 1em;
 }
 
-#unsubscribe > .buttons button {
+#unsubscribe .buttons button {
   padding: 10px 30px;
   font-size: 20px;
   background-color: #d960ae;
@@ -73,56 +72,56 @@
   transition: all 0.25s ease-in-out;
 }
 
-#unsubscribe > .buttons button:hover {
+#unsubscribe .buttons button:hover {
   background-color: #cf3799;
 }
 
-#unsubscribe > .buttons button#cancel {
+#unsubscribe .buttons #cancel {
   margin-right: 0;
   color: #333;
   background-color: #eddfeb;
 }
 
-#unsubscribe > .buttons button#cancel:hover {
+#unsubscribe .buttons #cancel:hover {
   background-color: #dbbed7;
 }
 
-#unsubscribe > .buttons button#go-back {
+#unsubscribe .buttons #go-back {
   display: none;
 }
 
-#unsubscribe > .buttons button:focus {
+#unsubscribe .buttons button:focus {
   border: none;
   outline: 0;
 }
 
 @media (max-width: 699px) {
-  #unsubscribe > .container {
+  #unsubscribe .container {
     width: 90%;
   }
 
-  #unsubscribe > .bottom {
+  #unsubscribe .bottom {
     margin-top: 1em;
     max-width: 90%;
   }
 }
 @media (max-width: 399px) {
-  #unsubscribe > .container {
+  #unsubscribe .container {
     padding: 20px;
   }
 
-  #unsubscribe > .bottom h2 {
+  #unsubscribe .bottom h2 {
     font-size: 24px;
   }
 
-  #unsubscribe > .buttons {
+  #unsubscribe .buttons {
     flex-direction: column;
   }
-  #unsubscribe > .buttons button {
+  #unsubscribe .buttons button {
     margin-right: 0;
   }
 
-  #unsubscribe > svg {
+  #unsubscribe svg {
     padding-top: 0;
   }
 }

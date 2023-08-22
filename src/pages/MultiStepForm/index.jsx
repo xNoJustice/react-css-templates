@@ -4,7 +4,7 @@ import './multi-step-form.css'
 export default function MultiStepForm() {
   const [step, setStep] = useState(1)
   const [values, setValues] = useState({
-    name: '',
+    nickname: '',
     firstname: '',
     adress: '',
     age: '',
@@ -56,15 +56,16 @@ export default function MultiStepForm() {
       {submitted ? (
         <div>
           Submitted
-          <p>Name: {values.name}</p>
+          <p>Nickname: {values.nickname}</p>
           <p>First Name: {values.firstname}</p>
           <p>Adress: {values.adress}</p>
+          <p>Age: {values.age}</p>
           <button
             type="button"
             onClick={() => {
               setSubmitted(false)
               setStep(1)
-              setValues({ name: '', firstname: '', adress: '', age: '' })
+              setValues({ nickname: '', firstname: '', adress: '', age: '' })
               setTransition('')
             }}
           >
@@ -97,11 +98,11 @@ const Step1 = ({ values, handleChange }) => {
   return (
     <form>
       <div className="fields">
-        <label>Name</label>
+        <label>Nickname</label>
         <input
           type="text"
-          name="name"
-          value={values.name}
+          name="nickname"
+          value={values.nickname}
           onChange={handleChange}
         />
       </div>
