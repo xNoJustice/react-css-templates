@@ -2,9 +2,15 @@
 
 ## Announcement Bar
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/b3069a2c-05f1-48b2-bd8e-212aa81deac1
+
 ## Animated Tag Cloud
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/b0aa6557-a05a-402c-9d30-1fb8fcd7eaef
+
 ## Flip Card Hover
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/b84fbbea-9cb5-4482-9e3d-ab62a1447e22
 
 ## Login Form
 
