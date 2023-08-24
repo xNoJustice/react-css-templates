@@ -1,5 +1,11 @@
 # React CSS Templates
 
+## Custom Tooltip
+
+## Expand Card
+
+## Pricing Card
+
 ## Announcement Bar
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/b3069a2c-05f1-48b2-bd8e-212aa81deac1

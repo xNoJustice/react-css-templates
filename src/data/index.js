@@ -1,4 +1,7 @@
 export const templates = [
+  { name: 'Expand Card', img: 'expand-card' },
+  { name: 'Custom Tooltip', img: 'custom-tooltip' },
+  { name: 'Pricing Card', img: 'pricing-card' },
   { name: 'Announcement Bar', img: 'announcement-bar' },
   { name: 'Animated Tag Cloud', img: 'animated-tag-cloud' },
   { name: 'Flip Card Hover', img: 'flip-card-hover' },

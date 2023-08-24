@@ -1,0 +1,88 @@
+#custom-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #cbd5e1;
+}
+
+#custom-tooltip h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#custom-tooltip header {
+  width: 340px;
+  padding: 0 16px;
+  display: flex;
+  border: 1px solid #475569;
+  border-radius: 16px;
+}
+
+#custom-tooltip .iconDiv {
+  height: 36px;
+  width: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  padding: 4px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: width 300ms ease-in-out 0s, background-color 300ms linear 200ms;
+}
+
+#custom-tooltip .iconSVG {
+  height: 36px;
+  aspect-ratio: 1 / 1;
+}
+
+#custom-tooltip .iconDiv:hover,
+#custom-tooltip .iconDiv:focus-visible {
+  width: 142px;
+  background-color: #334155;
+  transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
+}
+
+#custom-tooltip .iconDiv:focus-visible {
+  outline: 1px solid #334155;
+  outline-offset: 4px;
+}
+
+#custom-tooltip .iconDiv:active {
+  opacity: 0.9;
+}
+
+#custom-tooltip .iconDiv::after {
+  content: attr(tooltip);
+  margin-left: 6px;
+  animation: fadeInTooltip 600ms linear forwards;
+  font-weight: bold;
+}
+
+#custom-tooltip .spacer {
+  flex-grow: 1;
+}
+
+#custom-tooltip .divider {
+  height: 36px;
+  width: 1px;
+  margin: 24px 18px;
+  background-color: #475569;
+}
+
+@keyframes fadeInTooltip {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

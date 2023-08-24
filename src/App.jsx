@@ -25,6 +25,9 @@ import LoginForm from './pages/LoginForm'
 import FlipCardHover from './pages/FlipCardHover'
 import AnimatedTagCloud from './pages/AnimatedTagCloud'
 import AnnouncementBar from './pages/AnnouncementBar'
+import PricingCard from './pages/PricingCard'
+import CustomTooltip from './pages/CustomTooltip'
+import ExpandCard from './pages/ExpandCard'
 
 function App() {
   return (
@@ -58,6 +61,9 @@ function App() {
       <Route path="/flip-card-hover" element={<FlipCardHover />} />
       <Route path="/animated-tag-cloud" element={<AnimatedTagCloud />} />
       <Route path="/announcement-bar" element={<AnnouncementBar />} />
+      <Route path="/pricing-card" element={<PricingCard />} />
+      <Route path="/custom-tooltip" element={<CustomTooltip />} />
+      <Route path="/expand-card" element={<ExpandCard />} />
     </Routes>
   )
 }
