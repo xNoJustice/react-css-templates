@@ -2,9 +2,15 @@
 
 ## Custom Tooltip
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/615ff00d-cb95-49db-bc10-c9d08e6f3011
+
 ## Expand Card
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/abf22fc0-d4e2-409c-a2f2-f956311cc38f
+
 ## Pricing Card
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/4f2c419f-243d-4694-af45-1cf12dffe5d2
 
 ## Announcement Bar
 
