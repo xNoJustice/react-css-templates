@@ -1,5 +1,11 @@
 # React CSS Templates
 
+## Like Button
+
+## Interactive Text Effect
+
+## Hover Glide Gallery
+
 ## Custom Tooltip
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/615ff00d-cb95-49db-bc10-c9d08e6f3011

@@ -1,0 +1,85 @@
+#like-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+#like-button .like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+#like-button .checkmark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#like-button .outline,
+#like-button .filled {
+  fill: #ff3264;
+  position: absolute;
+}
+
+#like-button .outline {
+  outline: none;
+}
+
+#like-button .filled {
+  animation: btn-filled 0.5s;
+  display: none;
+}
+
+#like-button .celebrate {
+  position: absolute;
+  animation: btn-celebrate 0.5s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+
+#like-button .poly {
+  stroke: #ff3264;
+  fill: #ff3264;
+}
+
+#like-button .like:checked ~ .checkmark .filled {
+  display: block;
+}
+
+#like-button .like:checked ~ .checkmark .celebrate {
+  display: block;
+}
+
+@keyframes btn-filled {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes btn-celebrate {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    display: none;
+  }
+}

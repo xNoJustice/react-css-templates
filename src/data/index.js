@@ -1,4 +1,7 @@
 export const templates = [
+  { name: 'Like Button', img: 'like-button' },
+  { name: 'Interactive Text Effect', img: 'interactive-text-effect' },
+  { name: 'Hover Glide Gallery', img: 'hover-glide-gallery' },
   { name: 'Expand Card', img: 'expand-card' },
   { name: 'Custom Tooltip', img: 'custom-tooltip' },
   { name: 'Pricing Card', img: 'pricing-card' },

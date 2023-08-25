@@ -28,6 +28,9 @@ import AnnouncementBar from './pages/AnnouncementBar'
 import PricingCard from './pages/PricingCard'
 import CustomTooltip from './pages/CustomTooltip'
 import ExpandCard from './pages/ExpandCard'
+import HoverGlideGallery from './pages/HoverGlideGallery'
+import InteractiveTextEffect from './pages/InteractiveTextEffect'
+import LikeButton from './pages/LikeButton'
 
 function App() {
   return (
@@ -64,6 +67,12 @@ function App() {
       <Route path="/pricing-card" element={<PricingCard />} />
       <Route path="/custom-tooltip" element={<CustomTooltip />} />
       <Route path="/expand-card" element={<ExpandCard />} />
+      <Route path="/hover-glide-gallery" element={<HoverGlideGallery />} />
+      <Route
+        path="/interactive-text-effect"
+        element={<InteractiveTextEffect />}
+      />
+      <Route path="/like-button" element={<LikeButton />} />
     </Routes>
   )
 }
