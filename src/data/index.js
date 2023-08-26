@@ -1,4 +1,7 @@
 export const templates = [
+  { name: 'Submit Button', img: 'submit-button' },
+  { name: 'Social Media', img: 'social-media' },
+  { name: 'Matrix Login', img: 'matrix-login' },
   { name: 'Like Button', img: 'like-button' },
   { name: 'Interactive Text Effect', img: 'interactive-text-effect' },
   { name: 'Hover Glide Gallery', img: 'hover-glide-gallery' },

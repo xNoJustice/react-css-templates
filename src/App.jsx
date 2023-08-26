@@ -31,6 +31,9 @@ import ExpandCard from './pages/ExpandCard'
 import HoverGlideGallery from './pages/HoverGlideGallery'
 import InteractiveTextEffect from './pages/InteractiveTextEffect'
 import LikeButton from './pages/LikeButton'
+import MatrixLogin from './pages/MatrixLogin'
+import SocialMedia from './pages/Social Media'
+import SubmitButton from './pages/SubmitButton'
 
 function App() {
   return (
@@ -73,6 +76,9 @@ function App() {
         element={<InteractiveTextEffect />}
       />
       <Route path="/like-button" element={<LikeButton />} />
+      <Route path="/matrix-login" element={<MatrixLogin />} />
+      <Route path="/social-media" element={<SocialMedia />} />
+      <Route path="/submit-button" element={<SubmitButton />} />
     </Routes>
   )
 }

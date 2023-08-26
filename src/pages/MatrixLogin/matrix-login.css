@@ -1,0 +1,173 @@
+#matrix-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+#matrix-login section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#matrix-login section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#000, #0f0, #000);
+  animation: animateMatrix 5s linear infinite;
+}
+
+@keyframes animateMatrix {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+#matrix-login section span {
+  position: relative;
+  display: block;
+  width: calc(6.25vw - 2px);
+  height: calc(6.25vw - 2px);
+  background: #181818;
+  z-index: 2;
+  transition: 1.5s;
+}
+
+#matrix-login section span:hover {
+  background: #0f0;
+  transition: 0s;
+}
+
+#matrix-login section .login {
+  position: absolute;
+  width: 400px;
+  background: #222;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+}
+
+#matrix-login section .login .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#matrix-login section .login .content h2 {
+  font-size: 2em;
+  color: #0f0;
+  text-transform: uppercase;
+}
+
+#matrix-login section .login .content .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#matrix-login section .login .content .form .inputBox {
+  position: relative;
+  width: 100%;
+}
+
+#matrix-login section .login .content .form .inputBox input {
+  position: relative;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  padding: 25px 10px 7.5px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#matrix-login section .login .content .form .inputBox i {
+  position: absolute;
+  left: 0;
+  padding: 15px 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+#matrix-login .login .content .form .inputBox input:focus ~ i,
+#matrix-login .login .content .form .inputBox input:valid ~ i {
+  transform: translateY(-7.5px);
+  font-size: 0.8em;
+  color: #fff;
+}
+
+#matrix-login .login .content .form .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#matrix-login .login .content .form .links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#matrix-login .login .content .form .links a:nth-child(2) {
+  color: #0f0;
+  font-weight: 600;
+}
+
+#matrix-login .login .content .form .links a:hover {
+  color: #88e7c7;
+}
+
+#matrix-login .login .content .form button {
+  padding: 10px;
+  background: #0f0;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+#matrix-login .login .content .form button:hover {
+  background: #35d19d;
+}
+
+@media (max-width: 900px) {
+  #matrix-login section span {
+    width: calc(10vw - 2px);
+    height: calc(10vw - 2px);
+  }
+}
+
+@media (max-width: 600px) {
+  #matrix-login section span {
+    width: calc(20vw - 2px);
+    height: calc(20vw - 2px);
+  }
+}
