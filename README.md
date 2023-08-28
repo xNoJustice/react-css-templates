@@ -2,9 +2,15 @@
 
 ## Dots Card
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/048f113e-c596-42a2-b3b7-dc86a571533b
+
 ## Animated Filter
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/044a05d5-218d-413a-ac8f-fdef4b9d2f28
+
 ## Video Button Animation
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/a3e726c9-02ff-4b3b-a959-fb031d010399
 
 ## Submit Button
 
