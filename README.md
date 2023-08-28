@@ -1,5 +1,11 @@
 # React CSS Templates
 
+## Dots Card
+
+## Animated Filter
+
+## Video Button Animation
+
 ## Submit Button
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/f9a35ee9-78cd-406f-b508-65c0ecc61887

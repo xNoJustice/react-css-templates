@@ -1,4 +1,7 @@
 export const templates = [
+  { name: 'Dots Card', img: 'dots-card' },
+  { name: 'Animated Filter', img: 'animated-filter' },
+  { name: 'Video Button Animation', img: 'video-button-animation' },
   { name: 'Submit Button', img: 'submit-button' },
   { name: 'Social Media', img: 'social-media' },
   { name: 'Matrix Login', img: 'matrix-login' },

@@ -34,6 +34,9 @@ import LikeButton from './pages/LikeButton'
 import MatrixLogin from './pages/MatrixLogin'
 import SocialMedia from './pages/Social Media'
 import SubmitButton from './pages/SubmitButton'
+import VideoButtonAnimation from './pages/VideoButtonAnimation'
+import AnimatedFilter from './pages/AnimatedFilter'
+import DotsCard from './pages/DotsCard'
 
 function App() {
   return (
@@ -79,6 +82,12 @@ function App() {
       <Route path="/matrix-login" element={<MatrixLogin />} />
       <Route path="/social-media" element={<SocialMedia />} />
       <Route path="/submit-button" element={<SubmitButton />} />
+      <Route
+        path="/video-button-animation"
+        element={<VideoButtonAnimation />}
+      />
+      <Route path="/animated-filter" element={<AnimatedFilter />} />
+      <Route path="/dots-card" element={<DotsCard />} />
     </Routes>
   )
 }

@@ -1,0 +1,196 @@
+#animated-filter {
+  width: 220px;
+  margin: 20px auto;
+}
+
+#animated-filter p {
+  padding: 0 10px;
+}
+
+#animated-filter p.title {
+  margin: 0;
+}
+
+#animated-filter p,
+#animated-filter li {
+  font-weight: bold;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+#animated-filter .title {
+  color: #fff;
+  background-color: #1ba0eb;
+  border-radius: 3px 3px 0 0;
+}
+
+#animated-filter .title_items {
+  color: #94a4c3;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #e4effd;
+  transition: 0.2s linear background-color;
+  margin: 0px;
+}
+
+#animated-filter .title_items:hover {
+  background-color: #f4f4f4;
+}
+
+#animated-filter .title_items.active + ul + .title_items {
+  border-top: 1px solid #e4effd;
+}
+
+#animated-filter .title_items.active:after {
+  height: 5px;
+  width: 5px;
+  right: 14px;
+  margin-top: -2.5px;
+}
+
+#animated-filter .title_items:before,
+#animated-filter .title_items:after {
+  content: '';
+  position: absolute;
+  border-radius: 3px;
+  background-color: #c3d0e8;
+  transition: 0.3s linear all;
+}
+
+#animated-filter .title_items:before {
+  height: 5px;
+  width: 13px;
+  top: 50%;
+  right: 10px;
+  margin-top: -2.5px;
+}
+
+#animated-filter .title_items:after {
+  height: 13px;
+  width: 5px;
+  top: 50%;
+  right: 14px;
+  margin-top: -6.5px;
+}
+
+#animated-filter ul {
+  transition-property: all;
+  transition-timing-function: linear;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+#animated-filter ul li {
+  height: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  color: #92a5bf;
+  background-color: #f5f8fe;
+  transition: 0.2s linear all;
+}
+
+#animated-filter ul li:nth-child(odd) {
+  transform: scale(0.5) translateX(-150px);
+}
+
+#animated-filter ul li:nth-child(even) {
+  transform: scale(0.5) translateX(150px);
+}
+
+#animated-filter ul li.visible {
+  height: 36px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  transform: scale(1) translateX(0);
+}
+
+#animated-filter ul li:last-child label {
+  border-bottom: none;
+}
+
+#animated-filter ul li:nth-child(1) label:before,
+#animated-filter ul li:nth-child(1) label:after {
+  border-color: #5db6e2;
+}
+
+#animated-filter ul li:nth-child(2) label:before,
+#animated-filter ul li:nth-child(2) label:after {
+  border-color: #c0a2f1;
+}
+
+#animated-filter ul li:nth-child(3) label:before,
+#animated-filter ul li:nth-child(3) label:after {
+  border-color: #f7a238;
+}
+
+#animated-filter ul li:nth-child(4) label:before,
+#animated-filter ul li:nth-child(4) label:after {
+  border-color: #f6d04d;
+}
+
+#animated-filter ul li:nth-child(5) label:before,
+#animated-filter ul li:nth-child(5) label:after {
+  border-color: #40c9a1;
+}
+
+#animated-filter ul li:nth-child(6) label:before,
+#animated-filter ul li:nth-child(6) label:after {
+  border-color: #ea8b8b;
+}
+
+#animated-filter ul li:nth-child(7) label:before,
+#animated-filter ul li:nth-child(7) label:after {
+  border-color: #fe8ae0;
+}
+
+#animated-filter ul li:nth-child(8) label:before,
+#animated-filter ul li:nth-child(8) label:after {
+  border-color: #abb6d2;
+}
+
+#animated-filter input[type='radio'] {
+  display: none;
+}
+
+#animated-filter input[type='radio']:checked + label:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+#animated-filter label {
+  margin: 0 15px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 0 10px 0 25px;
+  border-bottom: 1px solid #ddebfd;
+}
+
+#animated-filter label:before {
+  content: '';
+  height: 10px;
+  width: 10px;
+  top: 60%;
+  left: 2%;
+  margin-top: -9px;
+  position: absolute;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+#animated-filter label:after {
+  content: '';
+  top: 50%;
+  left: 5px;
+  margin-top: -4px;
+  position: absolute;
+  border-width: 3px;
+  border-style: solid;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  border-radius: 50%;
+  transition: 0.2s linear all;
+}

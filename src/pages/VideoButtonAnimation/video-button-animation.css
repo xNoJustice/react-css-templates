@@ -1,0 +1,143 @@
+#video-button-animation {
+  background: #e8ebf3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-button-animation .wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#video-button-animation .wrapper .video {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  clip-path: circle(15px at left);
+  transition: clip-path 0.4s ease;
+}
+
+#video-button-animation .wrapper .video video {
+  position: fixed;
+  background: #c4cbde;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+#video-button-animation .wrapper .text {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  opacity: 1;
+  transition: opacity 0.3s ease 0.2s;
+}
+
+#video-button-animation .wrapper .text::before,
+#video-button-animation .wrapper .text::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  right: 25px;
+  height: 0;
+}
+
+#video-button-animation .wrapper .text::before {
+  box-shadow: 26px 0 0 1px #1f242d;
+  right: 100%;
+  opacity: 0;
+  transition: right 0.5s ease-in, opacity 0.1s linear;
+}
+
+#video-button-animation .wrapper .text::after {
+  box-shadow: 26px 0 0 1px #fff;
+  clip-path: circle(15px at left);
+  transition: clip-path 0.4s ease;
+}
+
+#video-button-animation .wrapper .text > span::before,
+#video-button-animation .wrapper .text > span::after {
+  content: attr(data-text);
+  padding-left: 26px;
+}
+
+#video-button-animation .wrapper .text > span::before {
+  color: #1f242d;
+}
+
+#video-button-animation .wrapper .text > span::after {
+  color: #fff;
+  clip-path: circle(15px at left);
+  transition: clip-path 0.4s ease;
+  position: absolute;
+  left: 0;
+}
+
+#video-button-animation .wrapper input {
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 40px;
+  outline: none;
+  z-index: 2;
+  appearance: none;
+  cursor: pointer;
+}
+
+#video-button-animation .wrapper input:focus {
+  outline: 0;
+}
+
+#video-button-animation .wrapper input:hover ~ .video {
+  clip-path: circle(70px at left);
+}
+
+#video-button-animation .wrapper input:hover ~ .text::after {
+  clip-path: circle(70px at left);
+}
+
+#video-button-animation .wrapper input:hover ~ .text > span::after {
+  clip-path: circle(70px at left);
+}
+
+#video-button-animation .wrapper input:checked {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+#video-button-animation .wrapper input:checked ~ .video {
+  clip-path: circle(100vw at left);
+}
+
+#video-button-animation .wrapper input:checked ~ .text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#video-button-animation .wrapper input:checked ~ .text::after {
+  clip-path: circle(100vw at left);
+}
+
+#video-button-animation .wrapper input:checked ~ .text > span::after {
+  clip-path: circle(100vw at left);
+}

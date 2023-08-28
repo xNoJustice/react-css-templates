@@ -1,0 +1,62 @@
+#dots-card {
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dots-card .card {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 10rem -5rem;
+  overflow: hidden;
+}
+
+#dots-card .card-img {
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dots-card .card-img > img {
+  width: 10rem;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#dots-card .card-effect {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+#dots-card .card-tile {
+  position: relative;
+}
+
+#dots-card .card-tile:before {
+  content: '';
+  color: #a9c9ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 0.3rem;
+  width: 0.3rem;
+  border-radius: 50%;
+  background: #a9c9ff;
+  transition: 500ms linear all;
+}
+
+#dots-card .card-tile:hover:before {
+  height: 3rem;
+  width: 3rem;
+  transition: 70ms linear all;
+}
