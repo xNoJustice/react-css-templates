@@ -1,4 +1,12 @@
 export const templates = [
+  { name: 'Wave Percent Loader', img: 'wave-percent-loader' },
+  { name: 'Starcaise Loader', img: 'starcaise-loader' },
+  { name: 'Cubes Loader', img: 'cubes-loader' },
+  { name: 'Earth Orbit Loader', img: 'earth-orbit-loader' },
+  { name: 'Colorful Star Loader', img: 'colorful-star-loader' },
+  { name: 'Colorful Black Hole Loader', img: 'colorful-black-hole-loader' },
+  { name: 'Box Hill Loader', img: 'box-hill-loader' },
+  { name: 'Atom', img: 'atom' },
   { name: 'Footer', img: 'footer' },
   { name: 'Artists', img: 'artists' },
   { name: 'Parallax Menu', img: 'parallax-menu' },

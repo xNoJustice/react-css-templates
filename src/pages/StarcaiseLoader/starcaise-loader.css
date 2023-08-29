@@ -1,0 +1,53 @@
+#starcaise-loader .texts {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+#starcaise-loader .texts:nth-child(odd) {
+  transform: skew(60deg, -30deg);
+}
+
+#starcaise-loader .texts:nth-child(even) {
+  transform: skew(0, -30deg) scaleY(1.5);
+}
+
+#starcaise-loader .texts:nth-child(1) {
+  left: -50px;
+}
+
+#starcaise-loader .texts:nth-child(2) {
+  top: 10px;
+  left: -15px;
+}
+
+#starcaise-loader .texts:nth-child(3) {
+  top: 19px;
+  left: 20px;
+}
+
+#starcaise-loader .texts:nth-child(4) {
+  top: 29px;
+  left: 55px;
+}
+
+#starcaise-loader .texts:nth-child(5) {
+  top: 38px;
+  left: 90px;
+}
+
+#starcaise-loader p {
+  transition: 0.5s ease-in-out;
+  animation: starcaise-climbing 1s linear infinite;
+}
+
+@keyframes starcaise-climbing {
+  100% {
+    transform: translate(0, -40px);
+  }
+}

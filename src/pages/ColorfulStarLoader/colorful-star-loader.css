@@ -1,0 +1,41 @@
+#colorful-star-loader {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+  animation: colorful-star-rotate 1.5s linear infinite;
+}
+
+#colorful-star-loader span {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+}
+
+#colorful-star-loader span:nth-child(1) {
+  filter: blur(5px);
+}
+
+#colorful-star-loader span:nth-child(2) {
+  filter: blur(10px);
+}
+
+#colorful-star-loader span:nth-child(3) {
+  filter: blur(25px);
+}
+
+#colorful-star-loader span:nth-child(4) {
+  filter: blur(150px);
+}
+
+@keyframes colorful-star-rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

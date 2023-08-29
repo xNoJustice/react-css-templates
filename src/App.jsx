@@ -41,6 +41,14 @@ import SubscriptionCard from './pages/SubscriptionCard'
 import ParallaxMenu from './pages/ParallaxMenu'
 import Artists from './pages/Artists'
 import Footer from './pages/Footer'
+import Atom from './pages/Atom'
+import BoxHillLoader from './pages/BoxHillLoader'
+import ColorfulBlackHoleLoader from './pages/ColorfulBlackHoleLoader'
+import ColorfulStarLoader from './pages/ColorfulStarLoader'
+import EarthOrbitLoader from './pages/EarthOrbitLoader'
+import CubesLoader from './pages/CubesLoader'
+import StarcaiseLoader from './pages/StarcaiseLoader'
+import WavePercentLoader from './pages/WavePercentLoader'
 
 function App() {
   return (
@@ -96,6 +104,17 @@ function App() {
       <Route path="/parallax-menu" element={<ParallaxMenu />} />
       <Route path="/artists" element={<Artists />} />
       <Route path="/footer" element={<Footer />} />
+      <Route path="/atom" element={<Atom />} />
+      <Route path="/box-hill-loader" element={<BoxHillLoader />} />
+      <Route
+        path="/colorful-black-hole-loader"
+        element={<ColorfulBlackHoleLoader />}
+      />
+      <Route path="/colorful-star-loader" element={<ColorfulStarLoader />} />
+      <Route path="/earth-orbit-loader" element={<EarthOrbitLoader />} />
+      <Route path="/cubes-loader" element={<CubesLoader />} />
+      <Route path="/starcaise-loader" element={<StarcaiseLoader />} />
+      <Route path="/wave-percent-loader" element={<WavePercentLoader />} />
     </Routes>
   )
 }

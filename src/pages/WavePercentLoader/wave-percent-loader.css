@@ -1,0 +1,41 @@
+:root {
+  --completion: 0%;
+  --offset: 1vh;
+}
+
+#wave-percent-loader {
+  height: 20vh;
+  width: 20vh;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wave-percent-loader output {
+  z-index: 1;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+#wave-percent-loader::after {
+  display: block;
+  width: 40vh;
+  height: 40vh;
+  content: '';
+  background-color: blueviolet;
+  border-radius: 15vh;
+  position: absolute;
+  left: 50%;
+  top: calc(100% - var(--completion) + var(--offset));
+  translate: -50% 0;
+  animation: wave-percent 5s linear infinite;
+}
+
+@keyframes wave-percent {
+  100% {
+    rotate: 360deg;
+  }
+}
