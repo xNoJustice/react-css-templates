@@ -2,11 +2,19 @@
 
 ## Footer
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/87e4cd83-db43-460a-b6e6-18476b8aae42
+
 ## Artists
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/b461c263-0842-408e-8f96-7acbc4c599aa
 
 ## Parallax Menu
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/020c12c2-96eb-4b5b-b196-e06f3130592f
+
 ## Subscription Card
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/36c0aff4-0890-4d87-80c8-c15a0151e297
 
 ## Dots Card
 
