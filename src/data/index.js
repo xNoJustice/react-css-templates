@@ -1,4 +1,8 @@
 export const templates = [
+  { name: 'Footer', img: 'footer' },
+  { name: 'Artists', img: 'artists' },
+  { name: 'Parallax Menu', img: 'parallax-menu' },
+  { name: 'Subscription Card', img: 'subscription-card' },
   { name: 'Dots Card', img: 'dots-card' },
   { name: 'Animated Filter', img: 'animated-filter' },
   { name: 'Video Button Animation', img: 'video-button-animation' },

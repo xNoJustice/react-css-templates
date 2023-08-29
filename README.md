@@ -1,5 +1,13 @@
 # React CSS Templates
 
+## Footer
+
+## Artists
+
+## Parallax Menu
+
+## Subscription Card
+
 ## Dots Card
 
 https://github.com/xNoJustice/react-css-templates/assets/45815512/048f113e-c596-42a2-b3b7-dc86a571533b

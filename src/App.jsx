@@ -37,6 +37,10 @@ import SubmitButton from './pages/SubmitButton'
 import VideoButtonAnimation from './pages/VideoButtonAnimation'
 import AnimatedFilter from './pages/AnimatedFilter'
 import DotsCard from './pages/DotsCard'
+import SubscriptionCard from './pages/SubscriptionCard'
+import ParallaxMenu from './pages/ParallaxMenu'
+import Artists from './pages/Artists'
+import Footer from './pages/Footer'
 
 function App() {
   return (
@@ -88,6 +92,10 @@ function App() {
       />
       <Route path="/animated-filter" element={<AnimatedFilter />} />
       <Route path="/dots-card" element={<DotsCard />} />
+      <Route path="/subscription-card" element={<SubscriptionCard />} />
+      <Route path="/parallax-menu" element={<ParallaxMenu />} />
+      <Route path="/artists" element={<Artists />} />
+      <Route path="/footer" element={<Footer />} />
     </Routes>
   )
 }
