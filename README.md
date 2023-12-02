@@ -2,19 +2,35 @@
 
 ## Wave Percent Loader
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/5043ff5a-ff3b-4681-8e97-2cb80f8345e8
+
 ## Starcaise Loader
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/8b4579c8-9f8c-4b04-8fbe-5a066aeb637a
 
 ## Cubes Loader
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/eb96af7c-f074-4a8d-94ad-b96d7d03f7c3
+
 ## Earth Orbit Loader
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/26cf5aff-ee0e-498e-8a69-60e5758afb6a
 
 ## Colorful Star Loader
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/5b4ae648-9cf8-4a30-93e1-c0807fa03707
+
 ## Colorful Black Hole Loader
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/a097d138-09bd-4aa5-a6ec-e8ed1c9dc59b
 
 ## Box Hill Loader
 
+https://github.com/xNoJustice/react-css-templates/assets/45815512/683ace7c-deee-4380-9fb7-aceadf676ce3
+
 ## Atom
+
+https://github.com/xNoJustice/react-css-templates/assets/45815512/9b206fba-f4f9-45fc-be3c-e51dcf59d430
 
 ## Footer
 
