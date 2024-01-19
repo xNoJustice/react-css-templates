@@ -5,7 +5,7 @@ import { templates } from '../data'
 export default function Homepage() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-auto min-h-screen p-6 mx-auto text-2xl font-bold dark:text-white">
-      <header className="text-3xl font-bold underline">
+      <h1 className="text-3xl font-bold underline">
         <span className="relative inline-block before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500">
           <span className="relative text-white">React + Vite</span>
         </span>
@@ -15,7 +15,7 @@ export default function Homepage() {
         <span className="relative inline-block ml-5 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500">
           <span className="relative text-white">Templates</span>
         </span>
-      </header>
+      </h1>
       <div className="grid grid-cols-1 gap-4 mt-10 md:grid-cols-3 lg:grid-cols-4">
         {templates.map((template) => (
           <Link
